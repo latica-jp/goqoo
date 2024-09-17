@@ -76,7 +76,6 @@ module.exports = (env, argv) => {
               loader: require.resolve('sass-loader'),
               options: {
                 implementation: require.resolve('sass'),
-                fiber: require.resolve('fibers'),
               },
             },
           ],
